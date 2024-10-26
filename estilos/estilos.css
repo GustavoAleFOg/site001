@@ -1,0 +1,258 @@
+
+ header {
+    width: 100%; /*largura do elemento*/
+	height: 200px; /*altura do elemento*/
+    background-color: #DCDCDC;
+    text-align: center;
+    border:solid #000 1px;
+ }
+
+header .bloco_matriz_header_dentro01 h1{
+    margin: 20px 36%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color:#F00;
+    background-color: #000;
+    border-radius: 80px;
+    width: 500px;
+    height: 100px;
+    text-align: center;
+    BORDER: solid 5px #ff0000;
+   
+    
+
+ }
+
+ main {
+    background-color: #ffd398;
+ }
+
+ main .bloco_matriz_main_dentro01 {
+    background-color: #8FBC8F;
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+main .bloco_matriz_main_dentro02 {
+    background-color: #8FBC8F;
+    display: grid ;
+    grid-template-columns: 1fr 1fr; 
+    
+}
+
+main .bloco_matriz_main_dentro03 {
+    background-color: #8FBC8F;
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+main .LinhaQuemSomos {
+    border: solid 7px #000;
+    margin: 5px 5px;
+    text-align: center;
+
+}
+
+main .LinhaQuemSomos img {
+    border: solid 5px #000;
+    margin: 10px 10px;
+    border-radius: 200px;
+}
+
+main .texto {
+    border: solid 2px #000;
+    margin: 15px 15px;
+    border-radius: 30px;
+}
+
+footer{ 
+    background-color: #000;
+    color: #fff;
+    text-align: center  ;
+}
+
+main .bloco_texto p{
+    font-size: 30px;
+    grid-template-columns: 1fr 1fr;
+   
+    margin-top: 40px;
+    
+}
+
+figure {
+    display: flex;
+    text-align: center;
+}
+
+main .allfunc {
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    border: solid 3px #dd0b0b;
+    margin: 15px 10%;
+    text-align: center;
+    display: flex;
+    border-radius: 30px;
+    background-color: #23c5ee;
+}
+
+main .func01 img {
+    width: 150px;
+    height: 150px;
+    border: solid 5px #000;
+    margin: 20px 20px;
+    border-radius: 15px;
+}
+
+main .func02 img {
+    width: 150px;
+    height: 150px;
+    border: solid 5px #000;
+    margin: 20px 20px;
+    border-radius: 15px;
+}
+
+main .func03 img {
+    width: 150px;
+    height: 150px;
+    border: solid 5px #000;
+    margin: 20px 20px;
+    border-radius: 15px;
+}
+
+main .func04 img {
+    width: 150px;
+    height: 150px;
+    border: solid 5px #000;
+    margin: 20px 20px;
+    border-radius: 15px;
+}
+
+main .bloco_matriz_main_dentro03 img {
+    width: 300px;
+    height: 300px;
+    border: solid 5px #000;
+    margin: 15px 15px;
+
+} 
+
+
+main .bloco_sede01 {
+    border: solid 3px #000; 
+    margin: 40px 0px;
+    width: 20px 20px;
+    height: 20px 20px;
+    background-color: #31f8ee;
+}
+
+main .bloco_sede01 img {
+    border:solid 3px #000;
+}
+
+main .figcaption01{
+    text-align: left;
+    font-size: 15px;
+    border:solid 3px #000;
+    margin: 20px 20px;
+    background-color: #23c5ee;
+}
+
+main .figcaption02{
+    text-align: left;
+    font-size: 15px;
+    border:solid 3px #000;
+    margin: 20px 20px;
+    background-color: #23c5ee;
+}
+
+main .figcaption03{
+    text-align: left;
+    font-size: 15px;
+    border:solid 3px #000;
+    margin: 20px 20px;
+    background-color: #23c5ee;
+}
+
+main .figcaption04{
+    text-align: left;
+    font-size: 15px;
+    border:solid 3px #000;
+    margin: 20px 20px;
+    background-color: #23c5ee;
+}
+
+main h2 {
+    text-align: center;
+}
+
+main h3{
+    text-align: center;
+}
+
+main .produtoimg{
+    border:solid 5px #000;
+    margin :15px 15px;
+    
+}
+
+main .produtoimg{
+    border:solid 5px #000;
+    margin :15px 15px;
+    
+}
+
+main .produtoimg img{
+    border:solid 3px #000;
+    margin :15px 15px;
+    border-radius: 25px;
+    width: 20px 20px;
+    height: 20px 20px ;
+}
+
+
+
+header .bloco_matriz_header_dentro02 h2{
+    margin: 10px;
+    font-size: 30px;
+    font-style:italic ;
+
+}
+nav {
+    width: 100%;
+	height: 50px;
+	background: #000;
+	text-align: center;
+}
+
+ul{
+	padding-top: 10px;
+}
+
+ul li{
+	display: inline;/*altera o display do elemento - deixa em linha*/
+	margin:0 20px; /*margem sup e inf de 0 esq e dir de 20px*/
+}
+
+ul li a{
+	text-decoration: none; /*tira decoração do texto*/
+	color: #FFF;
+	font-size: 25px;
+}
+
+ul li a:hover{ /*efeito hover que muda o css quando passa  o mouse*/
+	color: #F00;
+}
+/*fim da nav*/
+/*inicio da main*/
+
+main .blocomedio img{
+    border: solid 3px #000;
+    margin: 15px 15px;
+    background-color: #23c5ee;
+}
+
+main .blocomedio {
+    border: solid 5px #000;
+    margin: 15px 15px ;
+    background-color: #23c5ee;
+}
